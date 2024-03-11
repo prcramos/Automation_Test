@@ -1,0 +1,11 @@
+
+
+const dados = {
+    email: 'exemplo@gmail.com',
+    fullName: 'Fulano de Tal',
+    registerUserName: 'fulano123',
+    registerPassword: 'senha123'
+  };
+  
+  const paginaCadastro = new PaginaCadastro();
+  paginaCadastro.preencherFormulario(dados);
